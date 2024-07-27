@@ -4,30 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        tr , td , th{
+            border: solid 2px white;
+            color: white;
+        }
+    </style>
   </head>
   <body>
-    <table border="1" cellpadding="10" cellspacing="0"> 
-      <thead>
+    <table border="1" style="margin-left: 500px;">  
+ 
         <tr bgcolor="red" style="color: white;">
+          <th rowspan="10">HOURS</th>
           <th>MONDAY</th>
           <th>TUESDAY</th>
-          <th>WEDNESDAY</th>
+          <th>WEDSDAY</th>
           <th>THURSDAY</th>
           <th>FRIDAY</th>
         </tr>
-      </thead>
+    
 
-      <tbody>
+
+        <tr>
+          
+            <td>ENGLISH</td>
+            <td>SCIENCE</td>
+            <td>MATHS</td>
+            <td>SCIENCE  </td>
+            <td rowspan="4">MATHS</td>
+          </tr>
+
         <tr bgcolor="green" style="color: white;">
-          <td rowspan="2">MATHS</td>
-          <td>SCIENCE</td>
-          <td>MATHS</td>
-          <td>SCIENCE</td>
+
           <td >MATHS</td>
+          <td>SCIENCE</td>
+          <td>MATHS</td>
+          <td>SCIENCE</td>
+        
         </tr>
 
         <tr>
+         
+          <td>ENGLISH</td>
+          <td>SCIENCE</td>
+          <td>MATHS</td>
+          <td>SCIENCE</td>
+      
+        </tr>
+
+        <tr bgcolor="green" style="color: white;">
         
+          <td>CRAFT</td>
+          <td>SCIENCE</td>
+          <td>MATHS</td>
+          <td>SCIENCE</td>
+      
+        </tr>
+
+        <tr>
+    
+            <th colspan="5"> 
+                <marquee behavior="alternate" loop="" scrollamount="15" direction="" >RECESS</marquee>
+            </th>
+        
+        </tr>
+        <tr>
+         
+          <td>CRAFT</td>
           <td>SCIENCE</td>
           <td>MATHS</td>
           <td>SCIENCE</td>
@@ -35,6 +81,7 @@
         </tr>
 
         <tr bgcolor="green" style="color: white;">
+         
           <td>CRAFT</td>
           <td>SCIENCE</td>
           <td>MATHS</td>
@@ -43,24 +90,27 @@
         </tr>
 
         <tr>
-            <th colspan="5"> RECESS</th>
-        
-        </tr>
-        <tr>
-          <td>CRAFT</td>
-          <td>SCIENCE</td>
-          <td>MATHS</td>
-          <td>SCIENCE</td>
-          <td>MATHS</td>
-        </tr>
+         
+            <td>CRAFT</td>
+            <td>SCIENCE</td>
+            <th colspan="2">MATHS</th>
+           
+            <td rowspan="2">MATHS</td>
+          </tr>
 
-        <tr bgcolor="green" style="color: white;">
-          <td>CRAFT</td>
-          <td>SCIENCE</td>
-          <td>MATHS</td>
-          <td>SCIENCE</td>
-          <td>MATHS</td>
-        </tr>
+          <tr bgcolor="green" style="color: white;">
+         
+            <td>
+              <img src="./images/1.jpg" alt="">
+            </td>
+            <td>SCIENCE</td>
+            <td>MATHS</td>
+            <td>SCIENCE</td>
+          
+          </tr>
+
+
+          
       </tbody>
     </table>
   </body>
